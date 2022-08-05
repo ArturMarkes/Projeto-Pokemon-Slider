@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Pokemon slider MapadevWeek</title>
+    <link rel="shortcut icon" href="src/imagens/pokebola.png" type="image/x-icon">
+                        <!--fonte Outfit-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+   
+                <!-- Estilos CSS-->
+<link rel="stylesheet" href="src/css/reset.css">
+<link rel="stylesheet" href="src/css/style.css">
+<link rel="stylesheet" href="src/css/responsivo.css">
+
+
+</head>
+<body>
+    <header class="cabecalho">
+                <!--Imagem da pokébola-->
+        <img class="pokébola" src="src/imagens/pokebola.png" alt="Pokébola">
+        <h1 class="titulo">Mapa DevWeek</h1>
+    </header>
+
+                 <!--Setas dos botôes-->
+    <main class="pokemon-slider">
+        <button class="btn-setas btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="setas voltar">
+        </button>
+       
+        <!-- lista dos cartões dos pokémons-->
+    <ul class="lista-pokemon">
+        <li class="cartao selecionado fundo-1">
+            <div class="informacoes">
+                <h2 class="nome">Pikachu</h2>
+                <p class="vida" >HP 300</p>
+            </div>
+            
+            <div class="container-imagem">
+                <img src="src/imagens/pikachu.png" alt="Pikachu card" class="imagem-pokemon">
+            </div>
+
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis minus veniam consequatur maiores voluptatibus cupiditate autem aut amet placeat at ipsa, expedita inventore labore! Adipisci ratione ipsum deserunt explicabo. Doloremque.</p>
+            </div>
+        </li>
+        <!-- CHARIZARD-->
+        <li class="cartao fundo-2">
+            <div class="informacoes">
+                <h2 class="nome">Charizard</h2>
+                <p class="vida" >HP 800</p>
+            </div>
+            
+            <div class="container-imagem">
+                <img src="src/imagens/charizard.png" alt="charizard card" class="imagem-pokemon">
+            </div>
+
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis minus veniam consequatur maiores voluptatibus cupiditate autem aut amet placeat at ipsa, expedita inventore labore! Adipisci ratione ipsum deserunt explicabo. Doloremque.</p>
+            </div>
+        </li>
+          <!-- MEWTWO-->
+          <li class="cartao  fundo-3">
+            <div class="informacoes">
+                <h2 class="nome">Mewtwo</h2>
+                <p class="vida" >HP 1500</p>
+            </div>
+            
+            <div class="container-imagem">
+                <img src="src/imagens/mewtwo.png" alt="Mewtwo card" class="imagem-pokemon">
+            </div>
+
+            <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis minus veniam consequatur maiores voluptatibus cupiditate autem aut amet placeat at ipsa, expedita inventore labore! Adipisci ratione ipsum deserunt explicabo. Doloremque.</p>
+            </div>
+        </li>
+       
+
+    </ul>
+    <button class="btn-setas" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="setas avançar">
+        </button>
+      
+    </main>
+
+                <!--javascrpit-->
+<script src="src/JS/index.js"></script>
+</body>
+</html>
